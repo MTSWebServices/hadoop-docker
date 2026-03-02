@@ -9,7 +9,7 @@ jobs:
   release:
     name: Build & push images to Dockerhub (Hadoop ${{ matrix.hadoop-version }}, Hive ${{ matrix.hive-version }})
     runs-on: ubuntu-latest
-    if: github.repository == 'MobileTeleSystems/hadoop-docker'  # prevent running on forks
+    if: github.repository == 'MTSWebServices/hadoop-docker'  # prevent running on forks
 
     permissions:
       contents: read

@@ -1,7 +1,7 @@
-# [Hadoop docker image](https://github.com/MobileTeleSystems/hadoop-docker)
+# [Hadoop docker image](https://github.com/MTSWebServices/hadoop-docker)
 
 [![Repo Status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Build Status](https://github.com/MobileTeleSystems/hadoop-docker/workflows/Test%20build/badge.svg)](https://github.com/MobileTeleSystems/hadoop-docker/actions)
+[![Build Status](https://github.com/MTSWebServices/hadoop-docker/workflows/Test%20build/badge.svg)](https://github.com/MTSWebServices/hadoop-docker/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/mtsrus/hadoop)](https://hub.docker.com/r/mtsrus/hadoop)
 
 **Test purpose only!**
