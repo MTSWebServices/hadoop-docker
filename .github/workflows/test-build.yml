@@ -141,7 +141,7 @@ jobs:
         if: failure()
         uses: jwalton/gh-docker-logs@v2
         with:
-          images: mtsrus/hadoop
+          images: mtsrus/hadoop,postgres
           dest: ./logs
 
       - name: Shutdown Hive
