@@ -39,7 +39,7 @@ services:
       POSTGRES_USER: hive
       POSTGRES_PASSWORD: hive
     volumes:
-      - postgres-data:/var/lib/postgresql/data
+      - postgres-data:/var/lib/postgresql
     healthcheck:
       test: pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB
       start_period: 5s
