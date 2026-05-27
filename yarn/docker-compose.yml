@@ -4,7 +4,6 @@ services:
   yarn:
     image: ${YARN_IMAGE:-mtsrus/hadoop:hadoop2-yarn}
     restart: no
-    container_name: yarn
     hostname: yarn
     environment:
       WITH_JOBHISTORY_SERVER: 'true'

@@ -4,7 +4,6 @@ services:
   hdfs:
     image: ${HDFS_IMAGE:-mtsrus/hadoop:hadoop2-hdfs}
     restart: no
-    container_name: hdfs
     hostname: hdfs
     ports:
       - 9820:9820 # HDFS IPC
